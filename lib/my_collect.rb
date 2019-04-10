@@ -5,6 +5,7 @@ def my_collect(array)
     newarray << yield(array[i])
     i += 1
   end
+  newarray
 end
 
 def hamburger(toppings)
